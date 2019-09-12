@@ -10,4 +10,7 @@ public class Warrior extends Player {
     public void setSuperAbility(int superAbility) {
         this.superAbility = superAbility;
     }
+    public String applySuperAbility() {
+        return "Warrior - Нанес критический удар!";
+    }
 }
